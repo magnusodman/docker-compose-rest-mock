@@ -1,0 +1,8 @@
+version: '2.3'
+
+services:
+
+  mockserver:
+    image: jamesdbloom/mockserver
+    ports:
+      - 1080:1080
